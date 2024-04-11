@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+export PORT="${PORT:-8000}"
+
+if command -v overmind > /dev/null 2>&1; then
+  exec overmind start -f Procfile.dev "$@"
+fi
