@@ -27,14 +27,9 @@
   npm install
   ```
 
-- **Create `.env` file**
+- **Create `.env` file** (you will need the encryption key)
   ```shell
-  cp .env.example .env
-  ```
-
-- **You need the APP_KEY**. Generate one if you don't have it.
-  ```shell
-  php artisan key:generate
+  php artisan env:decrypt --key=`cat config/master.key`
   ```
 
 - **Setup Database**
@@ -43,7 +38,7 @@
   php artisan db:seed --class=RecipeSeeder
   ```
 
-- **Setup Storage Links** (I am pretty sure this is required for the uploaded images to work properly)
+- **Setup Storage**
   ```shell
   php artisan storage:link
   ```
