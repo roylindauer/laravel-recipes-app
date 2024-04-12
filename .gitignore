@@ -1,3 +1,4 @@
+/config/master.key
 /.phpunit.cache
 /node_modules
 /public/build
