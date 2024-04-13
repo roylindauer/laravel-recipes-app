@@ -55,3 +55,11 @@
   docker compose run --rm app bin/setup
   docker compose up 
   ```
+
+
+# Things To Do Next
+
+- [ ] Add Docker based setup
+- [ ] Use schema.org parser - https://packagist.org/packages/spatie/schema-org 
+- [ ] Add tests
+- [ ] Deploy to VM in homelab 
