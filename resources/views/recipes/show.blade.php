@@ -22,7 +22,7 @@
     </div>
     <?php endif; ?>
 
-    <div class="relative w-full max-w-4xl mx-auto py-4 -mt-80 z-10">
+    <div class="relative w-full max-w-4xl mx-auto py-4 -mt-24 z-10">
         <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-2xl sm:rounded-lg p-4">
             <div class="px-4 py-5 mb-4 dark:text-gray-300">
                 {!! $recipe->description !!}

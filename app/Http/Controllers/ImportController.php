@@ -27,7 +27,7 @@ class ImportController extends Controller
         $request->validate($this->validationRules());
 
         $recipe = Auth::user()->recipes()->create([
-            'name' => $request->name,
+            'name' => 'Importing...',
             'import_url' => $request->import_url,
             'active' => false,
         ]);
@@ -40,7 +40,6 @@ class ImportController extends Controller
     private function validationRules(): array
     {
         return [
-            'name' => 'required|string',
             'import_url' => 'required|url'
         ];
     }
