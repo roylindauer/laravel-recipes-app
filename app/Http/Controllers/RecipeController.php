@@ -17,7 +17,7 @@ class RecipeController extends Controller
     public function index()
     {
         return view('recipes.index', [
-            'recipes' => Recipe::all()
+            'recipes' => Recipe::where('active', true)->withRichText()->get()
         ]);
     }
 

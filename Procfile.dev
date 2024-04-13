@@ -1,2 +1,3 @@
 frontend: npm run dev
 web: php artisan serve
+queue: php artisan queue:work

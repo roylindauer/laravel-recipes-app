@@ -4,9 +4,32 @@
             {{ __('Import Recipe') }}
         </h2>
     </x-slot>
-    <div class="container mx-auto">
-        <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
-            FORM TO IMPORT RECIPE
+
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
+            <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg">
+                <div class="max-w-full">
+
+                    <header>
+                        <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">
+                            {{ __('Import a Recipe') }}
+                        </h2>
+
+                        <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                            {{ __("Import a recipe by URL") }}
+                        </p>
+                    </header>
+
+                    <form action="{{ route('import.store') }}" method="POST" class="mt-6 space-y-6">
+                        @csrf
+                        @include('import.partials.form', ['recipe' => $recipe])
+
+                        <div class="flex items-center gap-4">
+                            <x-primary-button>{{ __('Import') }}</x-primary-button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </x-app-layout>

@@ -5,8 +5,9 @@
                 {{ __('Recipes') }}
             </h2>
             <nav>
-                <ul>
+                <ul class="flex gap-2">
                     <li><a href="{{ route('recipes.create') }}" class="button">Add</a></li>
+                    <li><a href="{{ route('import.create') }}" class="button">Import</a></li>
                 </ul>
             </nav>
         </div>

@@ -21,7 +21,9 @@ class Recipe extends Model
         'ingredients',
         'instructions',
         'featured_image',
-        'tags'
+        'tags',
+        'active',
+        'import_url',
     ];
 
     /**
