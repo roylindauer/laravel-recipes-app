@@ -6,6 +6,7 @@ use App\Jobs\ProcessRecipeImport;
 use App\Models\Recipe;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use QueryPath\QueryPath;
 
 class ImportController extends Controller
 {
