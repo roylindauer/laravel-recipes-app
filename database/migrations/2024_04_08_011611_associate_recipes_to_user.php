@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
@@ -14,10 +15,6 @@ return new class extends Migration
         Schema::table('recipes', function (Blueprint $table) {
             $table->foreignId('user_id')->default(0)->constrained()->onDelete('cascade');
         });
-
-        // Assign the first user to all existing recipes
-        $user = DB::table('users')->first();
-        DB::table('recipes')->update(['user_id' => $user->id]);
     }
 
     /**

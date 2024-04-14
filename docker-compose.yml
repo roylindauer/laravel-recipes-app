@@ -1,0 +1,16 @@
+services:
+    db:
+        image: mysql/mysql-server:8.0.28
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: recipes
+            MYSQL_USER: root
+            MYSQL_PASSWORD: root
+        cap_add:
+            - SYS_NICE
+        ports:
+            - "127.0.0.1:3306:3306"
+        volumes:
+            - db:/var/lib/mysql
+volumes:
+    db:

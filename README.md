@@ -35,7 +35,7 @@
 - **Setup Database**
   ```shell
   php artisan migrate
-  php artisan db:seed --class=RecipeSeeder
+  php artisan db:seed
   ```
 
 - **Setup Storage**
