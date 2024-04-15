@@ -12,5 +12,6 @@ services:
             - "127.0.0.1:3306:3306"
         volumes:
             - db:/var/lib/mysql
+            - ./config/create-databases.sql:/docker-entrypoint-initdb.d/create-databases.sql
 volumes:
     db:
