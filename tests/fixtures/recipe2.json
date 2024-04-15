@@ -1,0 +1,380 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022705-garlic-braised-chicken#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022705-garlic-braised-chicken",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022705-garlic-braised-chicken",
+    "name": "Garlic-Braised Chicken",
+    "description": "“It’s the only place where you can find a giant vat of peeled garlic, because it’s the only place that truly understands how much garlic you’ll need for the kind of food your people eat,” Michelle Zauner writes about the supermarket H Mart in her memoir, “Crying in H Mart.” Thankfully, many other grocery stores now sell containers of peeled garlic cloves. If you don’t already buy those, then this recipe is a great reason to start. Chicken thighs, white pepper, chardonnay and 20 garlic cloves are all you need for this zinger of a one-pot meal, which braises in an hour. In that time, chicken fat, wine and water turn into a luscious sauce packed with garlicky redolence. The white pepper, musky and full of earthiness, is a key taste here, so don’t skip it.",
+    "author": {
+        "@type": "Person",
+        "name": "Eric Kim"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/10/28/dining/EK-garlic-braised-chicken/EK-garlic-braised-chicken-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/10/28/dining/EK-garlic-braised-chicken/merlin_196956432_f7a2d790-6eba-4e45-8844-fc406fc7debb-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/10/28/dining/EK-garlic-braised-chicken/merlin_196956432_f7a2d790-6eba-4e45-8844-fc406fc7debb-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/10/28/dining/EK-garlic-braised-chicken/EK-garlic-braised-chicken-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H15M",
+    "recipeYield": "2 to 4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": "dinner, easy, for two, weeknight, one pot, poultry, main course",
+    "keywords": "chicken thigh, dry white wine, dutch oven, garlic, white pepper",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1619
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 664,
+        "unsaturatedFatContent": "28 grams",
+        "carbohydrateContent": "18 grams",
+        "cholesterolContent": null,
+        "fatContent": "42 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "39 grams",
+        "saturatedFatContent": "11 grams",
+        "sodiumContent": "798 milligrams",
+        "sugarContent": "1 gram",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "Olive oil",
+        "2 pounds bone-in, skin-on chicken thighs (about 4)",
+        "Salt",
+        "20 peeled garlic cloves",
+        "3/4 teaspoon ground white pepper",
+        "1 cup dry chardonnay",
+        "Steamed white rice, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat oven to 350 degrees."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large Dutch oven over medium-high, add enough oil to lightly coat the bottom. Season the chicken with salt on both sides, then add to the pot skin side down. Cook until the skin turns golden and crispy, 8 to 10 minutes. If the skin browns too quickly, lower the heat. Flip, and sear the other side briefly, about 1 minute. Transfer the chicken to a plate and set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the garlic to the schmaltzy oil over medium-high, and stir until fragrant and very lightly golden at the edges, 1 to 2 minutes. Stir in the white pepper, then immediately add the wine and 1 cup water. Scrape up any stuck-on bits from the bottom of the pot while bringing the liquid to a simmer. Nestle the chicken in the pot skin side up, cover and cook in the oven until the chicken and garlic are meltingly tender, and the wine has reduced, about 1 hour. Taste for seasoning, adding more salt if needed. Serve with rice."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "image": [
+            {
+                "url": "https://static01.nyt.com/applications/cooking/5fc4cc6/assets/SiteLogoRed.svg",
+                "height": 31,
+                "width": 168,
+                "@context": "http://schema.org",
+                "@type": "ImageObject"
+            },
+            {
+                "url": "https://static01.nyt.com/applications/cooking/5fc4cc6/assets/SiteLogoBlack.svg",
+                "height": 24,
+                "width": 131,
+                "@context": "http://schema.org",
+                "@type": "ImageObject"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Vivian"
+            },
+            "reviewBody": "Is anyone else confused by the note that \"4 bone-in, skin-on chicken thighs\" weighs 2 lbs? In my world, here in LA, it means 8 pieces, which changes the size of the Dutch oven required. Jut wondering! Thanks to all y'all for your helpful notes. I upped the white pepper and next time might add even more. I live in a house of spicey people. :)"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Heather"
+            },
+            "reviewBody": "Quite good! I left the lid off to keep the skin crispy. In the last 15 minutes of cooking I scattered chopped green onion, snow peas, and broccoli around the chicken so that I had something green to spoon over the rice along with some sauce. \nI will definitely make this again, but I think I would let the sauce simmer a bit longer before putting the chicken back in so that it would reduce a bit more, and perhaps add rosemary and thyme sprigs."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "shan"
+            },
+            "reviewBody": "How would I adapt this for a whole chicken?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sara"
+            },
+            "reviewBody": "Cook this at 325, not 350. \n\nI did it the first time by mistake, but it’s so much better. More tender, everything falls off the bone."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter"
+            },
+            "reviewBody": "If you put the chicken on top of the garlic during the braise the crispy skin will stay well above the liquid"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CL"
+            },
+            "reviewBody": "Made per recipe and it turned out very well. It was more forgiving than I expected. I didn’t sear the chicken correctly ( skin of some pieces was sticking to the pan), but the braising took care of providing a nice flavor!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christie"
+            },
+            "reviewBody": "This is a family favorite.  We don't have white pepper on hand so I just use freshly ground black pepper.  It's hard to imagine it tasting any better than it already does but someday I'll try it as written.  We serve over rice with a little of the reduced sauce and usually a steamed or roasted vegetable."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara"
+            },
+            "reviewBody": "I enjoyed this meal. My only notes would be that a little extra salt and pepper could have been used and the sauce could have been thicker. I would reduce the water amount to 1/2 cup instead of a full cup. I braised my bone in chicken thighs and legs in the oven for 1 hour."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Valerie"
+            },
+            "reviewBody": "One of my favorite recipes from this section. So easy to make and delicious, bc I love gariic. I add an additional portion of white wine towards the end to give it some acidity on the tongue."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Philip"
+            },
+            "reviewBody": "Outstanding dinner. If you have a thigh leftover, try this: I microwaved it for 2 minutes in the sauce and garlic, took the skin of the thigh, and broiled it in the Breville to crisp it up. Toasted a Bays english muffin while I shredded the chicken and put it back in the sauce. Mashed the garlic into the bottom of the muffin, put the saucy chicken on top of that, drizzled a little sherry vinegar over the top, then the crispy skin. I almost wept."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claire Emilie"
+            },
+            "reviewBody": "Like many of Eric’s recipes, this one is incredibly simple and yet incredibly delicious. The sauce is to die for."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hannah"
+            },
+            "reviewBody": "Gorgeous dish. Tasty and relatively simple. Thanks Eric!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pradeep"
+            },
+            "reviewBody": "Replaced water with 1.5 cups homemade chicken broth, 30 mins lid on, 30 mins lid off, and 5 more mins under the broiler. Added leftover roast potatoes before the broil step. Served with toasted, buttered sourdough with garlic rubbed on it after and spinach with garlic. Perfect."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura Osman"
+            },
+            "reviewBody": "Delicious and simple. I am sure it is perfect as written but I was cooking in my parent’s kitchen and didn’t have wine or a Dutch oven. Subbed broth and lemon juice for the wine and added oregano and sage and mushrooms because my father loves them. Baked uncovered and reduced the sauce a little on the stove. Will definitely be making both the Mushroom Lemon Chicken version and the OG - which is likely more delicate but equally flavourful - in my home.If for company, pat of butter in the sauce…"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JJ3"
+            },
+            "reviewBody": "Pretty bland.  Would recommend using chicken stock instead of water, doubling the amount of white pepper.  Also def season that chicken before you fry it up.  The garlic melting into a warm goo was nice on the chicken."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Suri"
+            },
+            "reviewBody": "As an Italian, I can appreciate the H-Mart pre-peeled garlic is convenient, but pre-peeled garlic is so poor in flavor compared to freshly-peeled. Yes, it's a bit of extra work, but isn't food is worth it? And the tip to pop the cloves into a stainless steel bowl with a lid and shake can produce dozens of easily-peelable cloves in less than a minute."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Ford"
+            },
+            "reviewBody": "They may be cooked after 25 minutes, but they become meltingly tender after an hour, and a lot of the fat renders into the sauce."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kc"
+            },
+            "reviewBody": "Come on guys, it’s not that hard to peel garlic!  Just put the cloves in a large metal saucepan, shake vigorously for a few minutes and the peels fall off."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jeff"
+            },
+            "reviewBody": "Medium high with a coating of oil. Let it get hot enough so that when you put the chicken in it sizzles, then wait. WAIT. Don’t mess with the chicken until at least 7 minutes have passed. Then try to lift one. If it doesn’t lift easily, wait. I’ve always been impatient and that’s my downfall. Also used 1 tsp of white pepper. The 1 hour renders the fat, water and wine into a velvety sauce. But, I admit I added 1 tbs butter to 1/2 of it just to see. . . . I liked the addition. Your mileage may var"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Morgan"
+            },
+            "reviewBody": "Crisping the chicken before braising creates a Maillard reaction, which changes the flavor of the dish and renders the fat, imbuing the pan sauce with schmaltzy flavor. If cooked correctly, the chicken skin should be soft and unctuous, not flabby, like a good rotisserie chicken, where skin and flesh are juicy and gently part with each bite. That’s what you’re going for here. If it’s flabby, the fat wasn’t adequately rendered. Start at a lower heat, render, then crank up to finish crisping in fat"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sandra"
+            },
+            "reviewBody": "Hey Eric! You have done it again, constantly raising the bar for us all and doing it flawlessly. I’d say I’m surprised but I know who you are. I’ve seen it up close and personal. You make me so proud.\n\nSincerely thank you for yet another delicious and easy recipe! Going to experiment and add some herbs too next time"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mimi Mat"
+            },
+            "reviewBody": "This dish is insane.  I made it just as the recipe said.  And then, I took it stovetop and wilted baby spinach into it just to answer my need for a \"green\".  Beautiful, easy Fall comfort dish (and that was before the spinach)."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "a friend"
+            },
+            "reviewBody": "It helps to add the chicken to the pot when it's hot. It's when pans are cold that food sticks. You should hear a sizzle on first contact."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kymmore"
+            },
+            "reviewBody": "Delicious. Doubled the recipe, deboned the leftover chicken, garlic, sauce, added greens, sauteed, and served hot over cooked pasta the next night! Fresh grated Parma. Easy, delicious!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "If the thighs are sticking, they're not ready to be turned over. Once they are properly seared, they should release easily with a spatula. So try adjusting the heat and time. Good luck!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DW"
+            },
+            "reviewBody": "My (Romanian) grandmother used to make something similar, but she would cook the rice with the chicken. I've tried to replicate her chicken but have never got it exactly right! Gonna try this recipe, using more liquid and adding the rice w. about 25 mins to go. (By any objective measure, her rice was overcooked, but that didn't seem to matter: it was so good. Tempted to stir the rice into the oil *before* the liquid and let it cook w the chicken for the full hour!)"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eegulleye"
+            },
+            "reviewBody": "Simple and comforting. Patience required to brown the chicken first, but worth the time to crisp it up, render the fat, and avoid rubberiness later. Used chicken broth instead of water which helped with the flavor.  In the oven I left the cover on for 30 minutes and removed it for the last 30 minutes. This reduced the liquid so that there was enough to enjoy with rice, but not so much to consider it \"soup\". One could embellish this recipe but I was quite satisfied with the pure basic flavors."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Roger"
+            },
+            "reviewBody": "Read the labels.  Most peeled garlic cloves are from China.  Even the one's that say Organic.  You can find peeled cloves from the US if you look carefully.  And I love H Mart too!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "reviewBody": "In my experience, chicken thighs are fully cooked within 25 minutes of braising after the initial searing, although the garlic might need a little more time.  With a shorter cooking time, I'd forgo the water."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kaitlyn"
+            },
+            "reviewBody": "I keep wondering if I should make this easier on myself and add uncooked rice under the chicken and garlic with some broth. What’s better: An actual one-pot meal or velvety garlic chicken fat sauce?"
+        }
+    ]
+}

@@ -4,8 +4,8 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: recipes
-            MYSQL_USER: root
-            MYSQL_PASSWORD: root
+            MYSQL_USER: admin
+            MYSQL_PASSWORD: password
         cap_add:
             - SYS_NICE
         ports:

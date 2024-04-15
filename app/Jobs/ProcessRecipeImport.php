@@ -48,7 +48,24 @@ class ProcessRecipeImport implements ShouldQueue, ShouldBeUnique
         if ($qp->find('script[type="application/ld+json"]')) {
             $recipe_schema = json_decode($qp->find('script[type="application/ld+json"]')->text());
             if (is_array($recipe_schema)) {
-                $recipe_schema = $recipe_schema[0];
+                foreach ($recipe_schema as $schema) {
+                    if ($schema["@type"] === 'Recipe') {
+                        $recipe_schema = $schema;
+                        break;
+                    }
+                }
+            } else if (isset($recipe_schema["@graph"])) {
+                foreach ($recipe_schema["@graph"] as $schema) {
+                    if ($schema["@type"] === 'Recipe') {
+                        $recipe_schema = $schema;
+                        break;
+                    }
+                }
+            }
+
+            if ($recipe_schema["@type"] !== 'Recipe') {
+                logger('Recipe #' . $this->recipe->id . ' is not a Recipe type of document');
+                return;
             }
 
             $this->recipe->name = $recipe_schema->name;

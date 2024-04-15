@@ -1,0 +1,343 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Article",
+            "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#article",
+            "isPartOf": {
+                "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/"
+            },
+            "author": {
+                "name": "RecipeTeacher",
+                "@id": "https://recipeteacher.com/#/schema/person/6c0cddc88f9556b9a840578939d9fe12"
+            },
+            "headline": "Best Damn Oven Roasted Pork Tenderloin",
+            "datePublished": "2021-01-22T05:35:51+00:00",
+            "dateModified": "2023-05-14T04:36:04+00:00",
+            "wordCount": 361,
+            "commentCount": 228,
+            "publisher": {
+                "@id": "https://recipeteacher.com/#organization"
+            },
+            "image": {
+                "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#primaryimage"
+            },
+            "thumbnailUrl": "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&ssl=1",
+            "articleSection": [
+                "Dinner Recipes",
+                "Oven and Stovetop Recipes",
+                "Pork Recipes"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/",
+            "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/",
+            "name": "Best Damn Oven Roasted Pork Tenderloin - RecipeTeacher",
+            "isPartOf": {
+                "@id": "https://recipeteacher.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#primaryimage"
+            },
+            "image": {
+                "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#primaryimage"
+            },
+            "thumbnailUrl": "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&ssl=1",
+            "datePublished": "2021-01-22T05:35:51+00:00",
+            "dateModified": "2023-05-14T04:36:04+00:00",
+            "description": "Mouthwatering, buttery tender pork tenderloin seasoned to perfection and roasted in the oven for about 30 minutes.",
+            "breadcrumb": {
+                "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#primaryimage",
+            "url": "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&ssl=1",
+            "contentUrl": "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&ssl=1",
+            "width": 1200,
+            "height": 1200,
+            "caption": "Recipe for oven roasted pork tenderloin"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://recipeteacher.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Pork Recipes",
+                    "item": "https://recipeteacher.com/category/pork/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Best Damn Oven Roasted Pork Tenderloin"
+                }
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://recipeteacher.com/#website",
+            "url": "https://recipeteacher.com/",
+            "name": "RecipeTeacher",
+            "description": "Easy Recipes For Everyone",
+            "publisher": {
+                "@id": "https://recipeteacher.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://recipeteacher.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://recipeteacher.com/#organization",
+            "name": "Recipe Teacher",
+            "url": "https://recipeteacher.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://recipeteacher.com/#/schema/logo/image/",
+                "url": "https://recipeteacher-com.exactdn.com/wp-content/uploads/2019/05/cropped-RecipeTeacherHeaderLogo2018-2.gif?strip=all&lossy=1&ssl=1",
+                "contentUrl": "https://recipeteacher-com.exactdn.com/wp-content/uploads/2019/05/cropped-RecipeTeacherHeaderLogo2018-2.gif?strip=all&lossy=1&ssl=1",
+                "width": 640,
+                "height": 340,
+                "caption": "Recipe Teacher"
+            },
+            "image": {
+                "@id": "https://recipeteacher.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+                "https://www.pinterest.com/recipe_teacher/"
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://recipeteacher.com/#/schema/person/6c0cddc88f9556b9a840578939d9fe12",
+            "name": "RecipeTeacher",
+            "sameAs": [
+                "https://recipeteacher.com/about/"
+            ]
+        },
+        {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": "Best Damn Roasted Pork Tenderloin",
+            "description": "Mouthwatering, buttery tender pork tenderloin seasoned to perfection and roasted in the oven for about 30 minutes.",
+            "author": {
+                "@type": "Person",
+                "name": "RecipeTeacher"
+            },
+            "image": [
+                "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&resize=225%2C225&ssl=1",
+                "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&resize=260%2C195&ssl=1",
+                "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&resize=320%2C180&ssl=1",
+                "https://evuecezehrh.exactdn.com/wp-content/uploads/2021/01/oven-roasted-pork-tenderloin-feature.jpg?strip=all&lossy=1&ssl=1"
+            ],
+            "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/",
+            "recipeIngredient": [
+                "2 pork tenderloins (3/4lb-1.25lbs each)",
+                "3 tbs brown sugar",
+                "1.5 tbs paprika",
+                "1.5 tsp salt",
+                "1.5 tsp ground mustard",
+                "1 tsp black pepper",
+                "1 tsp onion powder",
+                "1/2 tsp garlic powder",
+                "1-2 tbs olive oil"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Preheat oven to 425°(F).",
+                    "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#instruction-step-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Mix all dry ingredients in a small bowl.",
+                    "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#instruction-step-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Trim pork tenderloin of any excess fat or silverskin. Pat pork dry and coat with olive oil.",
+                    "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#instruction-step-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Rub seasoning mix all over pork tenderloin.",
+                    "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#instruction-step-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Place seasoned pork into a shallow baking dish and bake in oven 25-30 minutes (internal temp should be at least 145°)",
+                    "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#instruction-step-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Remove from oven and place pork tenderloin on a plate and let rest at least 5 minutes before slicing.",
+                    "url": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#instruction-step-6"
+                }
+            ],
+            "prepTime": "PT5M",
+            "cookTime": "PT-475872H8M46S",
+            "totalTime": "",
+            "recipeYield": [
+                "4",
+                "4 servings"
+            ],
+            "recipeCategory": "Dinner",
+            "cookingMethod": "Oven",
+            "recipeCuisine": "American",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "136",
+                "ratingValue": "4.9"
+            },
+            "video": {
+                "@context": "http://schema.org",
+                "@type": "VideoObject",
+                "name": "Oven Roasted Pork Tenderloin.mp4",
+                "description": "Mouthwatering, juicy and tender pork tenderloin is expertly seasoned and roasted to perfection in the oven. ",
+                "contentUrl": "https://content.jwplatform.com/videos/65Pm0n2F.mp4",
+                "thumbnailUrl": [
+                    "https://content.jwplatform.com/thumbs/65Pm0n2F-720.jpg"
+                ],
+                "uploadDate": "2022-10-22T02:55:23+00:00"
+            },
+            "review": [
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Tiffanie McHale"
+                    },
+                    "datePublished": "2024-02-26",
+                    "reviewBody": "Loved it! Great flavor… it was so hard to stop eating!\r\nThank you"
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Busterbird"
+                    },
+                    "datePublished": "2024-03-02",
+                    "reviewBody": "Delicious - perfectly seasoned and tender. I used smoked paprika because that's all I have. Pretty darn perfect! Thank you for the recipe."
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Linda"
+                    },
+                    "datePublished": "2024-03-24",
+                    "reviewBody": "Great recipe but wondered if the paprika was supposed to be tsp. Instead of Tbls.?"
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Katherine Anderson"
+                    },
+                    "datePublished": "2024-04-01",
+                    "reviewBody": "Use smoked Paprika  only 1 .5 tsp left- out the mustard- set oven at 350 and cooked 35 minutes....Was great, mashed potatoes, gravy, and granny's green beans....Will make to often and use left overs for pork dip sandwiches...."
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Candice M McGuire"
+                    },
+                    "datePublished": "2024-04-06",
+                    "reviewBody": "Freaking delicious!"
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Steve Bolam"
+                    },
+                    "datePublished": "2024-04-06",
+                    "reviewBody": "Great and simple recipe. Should be in everyones rotation. Made 1 small change, I like to use mustard as a binder for rubs, so I used Colemans hot mustard instead of the olive oil ans omitted the mustard powder from the dry ingredients. A small glug of olive oil in the pan to prevent sticking. Excellent!!"
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Patti"
+                    },
+                    "datePublished": "2024-04-10",
+                    "reviewBody": "This is the best, easiest and quickest recipe I have used to bake a pork tenderloin!\r\nIt was delicious and my daughter,  who is not a pork fan, said this she would eat this again.\r\nFor added flavor I scored the top of the tenderloin so get the rub inside.\r\nThanks!"
+                }
+            ],
+            "datePublished": "2021-01-21",
+            "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#recipe",
+            "isPartOf": {
+                "@id": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/#article"
+            },
+            "mainEntityOfPage": "https://recipeteacher.com/best-damn-oven-roasted-pork-tenderloin/"
+        }
+    ]
+}

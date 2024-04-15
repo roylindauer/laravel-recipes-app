@@ -52,6 +52,12 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
+        ],
+        "setup-tests": [
+            "./bin/pre_test"
+        ],
+        "tests": [
+            "@php artisan test"
         ]
     },
     "extra": {
