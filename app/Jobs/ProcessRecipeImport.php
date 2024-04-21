@@ -49,6 +49,10 @@ class ProcessRecipeImport implements ShouldQueue, ShouldBeUnique
             $recipe_schema = json_decode($qp->find('script[type="application/ld+json"]')->text());
             if (is_array($recipe_schema)) {
                 foreach ($recipe_schema as $schema) {
+                    # this is throwing an error
+                    # Cannot use object of type stdClass as array
+                    # so what is schema here?
+                    # @BUGBUG - Address this and write some tests ;)
                     if ($schema["@type"] === 'Recipe') {
                         $recipe_schema = $schema;
                         break;
