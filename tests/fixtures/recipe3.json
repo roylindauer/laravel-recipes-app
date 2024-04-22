@@ -2,33 +2,23 @@
     {
         "@context": "http://schema.org",
         "@type": [
-            "Recipe",
-            "NewsArticle"
+            "Recipe"
         ],
-        "headline": "Maple Roasted Brussels Sprouts with Bacon",
-        "datePublished": "2019-04-02T02:58:39.000-04:00",
-        "dateModified": "2023-09-14T11:48:32.698-04:00",
+        "headline": "Sriracha Deviled Eggs",
+        "datePublished": "2018-06-08T10:12:48.000-04:00",
+        "dateModified": "2018-06-08T10:12:48.000-04:00",
         "author": [
             {
                 "@type": "Person",
-                "name": "stefychefy"
+                "name": "Jenny Saunders"
             }
         ],
-        "description": "These Brussels sprouts with bacon are oven-roasted with maple syrup and olive oil for a smoky, caramelized side dish that&#39;s as easy as it is delicious.",
+        "description": "Sriracha, chile-garlic sauce, gives a kick to deviled eggs, a classic party favorite.",
         "image": {
             "@type": "ImageObject",
-            "url": "https://www.allrecipes.com/thmb/PJpRDZxzdDuYuLdV1qYOkHYFF-A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228875-maple-roasted-brussel-sprouts-with-bacon-DDMFS-4x3-1442-web-a9b2bfd6769d485daf1bd49dd6b6bb1d.jpg",
-            "height": 1125,
+            "url": "https://www.allrecipes.com/thmb/lama7B-VobLmfoIZcS9hFG2NHzM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5281442-ae6c53faad1f45ad8972ddcce680faa0.jpg",
+            "height": 1500,
             "width": 1500
-        },
-        "video": {
-            "@type": "VideoObject",
-            "contentUrl": "https://content.jwplatform.com/videos/Tucews7H-K3AjnAEN.mp4",
-            "description": "Brussels sprouts have never tasted sweeter than this. In this video, Nicole shows you how to make maple roasted Brussels sprouts with smoky bacon. This side dish, using only a handful of ingredients, caramelizes the Brussels sprouts and gives them an umami-like flavor. After tossing the sprouts and bacon together with salt, pepper, and maple syrup, bake it in the oven for around 30 minutes. It’s an easy, restaurant level appetizer that will be a party favorite.",
-            "duration": "PT2M7S",
-            "name": "How to Make Maple Roasted Brussels Sprouts with Bacon",
-            "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/Tucews7H/thumbnails/vDaEAzv2.jpg",
-            "uploadDate": "2023-09-11T17:13:04.127-04:00"
         },
         "publisher": {
             "@type": "Organization",
@@ -54,108 +44,58 @@
                 "http://linkedin.com/company/allrecipes.com"
             ]
         },
-        "name": "Maple Roasted Brussels Sprouts with Bacon",
+        "name": "Sriracha Deviled Eggs",
         "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.7",
-            "ratingCount": "532"
+            "ratingCount": "26"
         },
-        "cookTime": "PT20M",
+        "cookTime": "PT15M",
         "nutrition": {
             "@type": "NutritionInformation",
-            "calories": "169 kcal",
-            "carbohydrateContent": "12 g",
-            "cholesterolContent": "8 mg",
-            "fiberContent": "2 g",
-            "proteinContent": "5 g",
+            "calories": "90 kcal",
+            "carbohydrateContent": "1 g",
+            "cholesterolContent": "187 mg",
+            "fiberContent": "0 g",
+            "proteinContent": "6 g",
             "saturatedFatContent": "2 g",
-            "sodiumContent": "323 mg",
-            "sugarContent": "7 g",
-            "fatContent": "12 g",
+            "sodiumContent": "202 mg",
+            "sugarContent": "0 g",
+            "fatContent": "7 g",
             "unsaturatedFatContent": "0 g"
         },
-        "prepTime": "PT10M",
+        "prepTime": "PT20M",
         "recipeCategory": [
-            "Dinner",
-            "Side Dish"
-        ],
-        "recipeCuisine": [
-            "American"
+            "Appetizer",
+            "Snack"
         ],
         "recipeIngredient": [
-            "1 pound whole Brussels sprouts",
-            "4 slices bacon, cut into 1/2-inch pieces",
-            "0.5 teaspoon salt",
-            "0.25 teaspoon freshly ground black pepper",
-            "0.25 cup extra-virgin olive oil",
-            "3 tablespoons pure maple syrup"
+            "12 eggs",
+            "2 tablespoons mayonnaise, or as needed",
+            "2 tablespoons Sriracha hot chili sauce, or more to taste",
+            "0.125 teaspoon dry mustard",
+            "1 pinch cayenne pepper, or to taste",
+            "salt to taste",
+            "1 pinch smoked paprika, or to taste"
         ],
         "recipeInstructions": [
             {
                 "@type": "HowToStep",
-                "image": [
-                    {
-                        "@type": "ImageObject",
-                        "url": "https://www.allrecipes.com/thmb/g4XCP-T4V5GP09zQb-WXBtL-BX8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228875-maple-roasted-brussel-sprouts-with-bacon-DDMFS-step-01-1369-fef9d1f2632144d6833520ce4a1f10ae.jpg"
-                    }
-                ],
-                "text": "Gather all ingredients. Preheat the oven to 400 degrees F (200 degrees C). Line a rimmed baking sheet with aluminum foil."
+                "text": "Place eggs in a saucepan; cover with water. Bring to a boil, remove from heat, and let eggs stand in hot water for 15 minutes. Remove eggs from hot water, cool under cold running water, and peel."
             },
             {
                 "@type": "HowToStep",
-                "image": [
-                    {
-                        "@type": "ImageObject",
-                        "url": "https://www.allrecipes.com/thmb/qromzl5aUD_5mgXlCEiw2mmuR48=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228875-maple-roasted-brussel-sprouts-with-bacon-DDMFS-step-02-1371-b66ad035ba4d4e1a8013c6cd847066b1.jpg"
-                    }
-                ],
-                "text": "Trim ends off Brussels sprouts and cut any large ones in half. Transfer to a large bowl."
+                "text": "Cut eggs in half lengthwise; place egg yolks in a small bowl. Mash yolks with a fork; stir mayonnaise, Sriracha sauce, dry mustard, and cayenne pepper into yolks until smooth; season with salt. Spoon yolk mixture into a resealable plastic bag; snip off one corner of the bag."
             },
             {
                 "@type": "HowToStep",
-                "image": [
-                    {
-                        "@type": "ImageObject",
-                        "url": "https://www.allrecipes.com/thmb/Vnogh8oQ67ByOL7FxU0pyVS2WAo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228875-maple-roasted-brussel-sprouts-with-bacon-DDMFS-step-04-1373-5a61d4ec2bdd4f22961e4916a57ed660.jpg"
-                    }
-                ],
-                "text": "Add bacon, salt, and pepper to the Brussels spouts. Drizzle olive oil and maple syrup over top and toss until sprouts are well coated."
-            },
-            {
-                "@type": "HowToStep",
-                "image": [
-                    {
-                        "@type": "ImageObject",
-                        "url": "https://www.allrecipes.com/thmb/7P1zxKN6X0qItarah-QWX-tzwDY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228875-maple-roasted-brussel-sprouts-with-bacon-DDMFS-step-05-1374-a8d1096f48f84f27807c9cbe242680ec.jpg"
-                    }
-                ],
-                "text": "Transfer to the prepared baking sheet and spread in a single layer."
-            },
-            {
-                "@type": "HowToStep",
-                "image": [
-                    {
-                        "@type": "ImageObject",
-                        "url": "https://www.allrecipes.com/thmb/UvExq2NRosWSGZKRkA4-ZESmOO0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228875-maple-roasted-brussel-sprouts-with-bacon-DDMFS-step-06-1404-c4e93c340e604a3ea3190daabff60e3f.jpg"
-                    }
-                ],
-                "text": "Roast in the preheated oven until bacon is crispy and Brussels sprouts are caramelized, 20 to 30 minutes, stirring halfway through."
-            },
-            {
-                "@type": "HowToStep",
-                "image": [
-                    {
-                        "@type": "ImageObject",
-                        "url": "https://www.allrecipes.com/thmb/PJpRDZxzdDuYuLdV1qYOkHYFF-A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228875-maple-roasted-brussel-sprouts-with-bacon-DDMFS-4x3-1442-web-a9b2bfd6769d485daf1bd49dd6b6bb1d.jpg"
-                    }
-                ],
-                "text": "Serve warm and enjoy!"
+                "text": "Place egg whites cut-side up on a serving platter. Pipe yolk mixture into egg white halves; sprinkle with smoked paprika. Refrigerate deviled eggs, covered, until ready to serve."
             }
         ],
         "recipeYield": [
-            "6"
+            "12"
         ],
-        "totalTime": "PT30M",
+        "totalTime": "PT50M",
         "review": [
             {
                 "@type": "Review",
@@ -165,9 +105,9 @@
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Kyra Siebert"
+                    "name": "Chris25"
                 },
-                "reviewBody": "I have made this a handful of times and it's always been a big hit. I do make a few adjustments though; first I pre-cook the bacon until it's about half done, I don't like mushy sprouts and that's what you get in order for the bacon to crisp up. Next I pour the bacon, any grease from the pre-cooking, the syrup, sprouts and s&amp;p in a bowl and mix it all up, then I add just enough olive oil to coat usually only a couple of tablespoons is needed. I definitely line my baking sheet with foil because the syrup really gets sticky and I cook at 400 for only about 20 minutes. These small adjustments make it perfect every single time."
+                "reviewBody": "Tasty, yet not overly spicy. I like a lot of heat, but dinner guests do not always share that enthusiasm. This is the right amount of spice to serve at a party."
             },
             {
                 "@type": "Review",
@@ -177,10 +117,10 @@
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Allrecipes Member"
+                    "name": "Missi"
                 },
-                "reviewBody": "I added chopped nuts for bite and camembert blue cheese on top afterwards for a little kick. Goat cheese would be perfect, too. Awesome flavors. Simple. Definitely worth doubling.",
-                "datePublished": "2024-03-31T03:05:46.790Z"
+                "reviewBody": "This has become our family’s favorite deviled egg. I usually double the Mayo and sriracha to make them a little creamier and top with a smoky paprika chipotle seasoning. They are always a hit!",
+                "datePublished": "2024-04-01T14:28:12.941Z"
             },
             {
                 "@type": "Review",
@@ -190,10 +130,10 @@
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Kiki"
+                    "name": "Barry Dolan"
                 },
-                "reviewBody": "This was really good... My gbabies don't like Brussel sprouts, but they ate all of them... Followed directions was a little greasy from bacon, so nextime will only coat with little bit of olive oil... Pared with broccoli cheddar rice, and pan fried salmon.",
-                "datePublished": "2024-03-23T03:27:29.980Z"
+                "reviewBody": "This was a hit on the very first try. I made these as a side to accompany our New Year's Day prime rib dinner. Very easy to make. And I agree with getting store bought hard boiled eggs. Peeling a few more than a dozen eggs is not a fun chore, no matter what deviled egg recipe you're using. I look forward to making this again soon.",
+                "datePublished": "2021-01-02T03:04:32.610Z"
             },
             {
                 "@type": "Review",
@@ -203,10 +143,10 @@
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Allrecipes Member"
+                    "name": "Tana"
                 },
-                "reviewBody": "This is THE best brussels sprouts recipe I've ever made. So easy to be so delicious! I didn't have enough sprouts, so I used about 2/3rds sprouts plus 1/3 fresh broccoli (cut to slightly larger than bite sized.) I think I liked the broccoli even more coz that sauce really soaked in. We like our roasted veggies more charred, so when it wasnt browning enough, I cooked an extra 10min at 425.",
-                "datePublished": "2024-02-24T22:16:31.744Z"
+                "reviewBody": "Not as spicy as I expected which was fine because the kids enjoyed these too.",
+                "datePublished": "2020-03-29T15:14:14.127Z"
             },
             {
                 "@type": "Review",
@@ -216,23 +156,10 @@
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Allrecipes Member"
+                    "name": "madge"
                 },
-                "reviewBody": "I love this! Cook it all the time, particularly with boursin-stuffed chicken.",
-                "datePublished": "2024-02-21T17:43:59.822Z"
-            },
-            {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "3"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "Les"
-                },
-                "reviewBody": "Just no wild about it. No changes to recipe",
-                "datePublished": "2024-02-08T22:19:07.853Z"
+                "reviewBody": "This is going to be my go-to recipe for deviled eggs now. I had to use regular mustard since I did not have dry mustard. Very pleased!",
+                "datePublished": "2019-12-04T18:04:48.577Z"
             },
             {
                 "@type": "Review",
@@ -242,23 +169,10 @@
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Allrecipes Member"
+                    "name": "Timmy Schneeberg"
                 },
-                "reviewBody": "",
-                "datePublished": "2024-02-06T07:42:15.311Z"
-            },
-            {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "RickM48"
-                },
-                "reviewBody": "Really tastes great. An unexpected treat.",
-                "datePublished": "2024-02-04T19:25:15.500Z"
+                "reviewBody": "so good I think im going o make them for Easter!!!",
+                "datePublished": "2019-11-06T15:00:28.730Z"
             },
             {
                 "@type": "Review",
@@ -268,30 +182,56 @@
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Allrecipes Member"
+                    "name": "Patty"
                 },
-                "reviewBody": "The taste is incredible, next time I will try baking only 20 minutes since they were a little too done.",
-                "datePublished": "2024-02-02T17:19:51.787Z"
+                "reviewBody": "The flavor of these eggs was great. I put a jalapeño pepper on top and a little more mayo in them. I personally had a hard time with the color. They looked like the egg was bad.",
+                "datePublished": "2019-06-23T13:25:09.337Z"
             },
             {
                 "@type": "Review",
                 "reviewRating": {
                     "@type": "Rating",
-                    "ratingValue": "4"
+                    "ratingValue": "5"
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "oletechie"
+                    "name": "shari"
                 },
-                "reviewBody": "The Maple Syrup made the difference. I will make this again.",
-                "datePublished": "2024-02-01T22:57:11.310Z"
+                "reviewBody": "Made them for my son, he loved them. I will be making them again, didn't change anything.",
+                "datePublished": "2019-01-10T13:35:26.573Z"
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "SSANTANA"
+                },
+                "reviewBody": "Love, love, love these eggs! They’re such a big hit with all my friends that I’m constantly asked to bring these to parties. Thanks for the recipe!",
+                "datePublished": "2018-06-16T12:58:54.430Z"
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Buckwheat Queen"
+                },
+                "reviewBody": "These are delicious. I had to use prepared mustard. Thank you for the recipe.",
+                "datePublished": "2018-04-02T14:54:39.200Z"
             }
         ],
         "mainEntityOfPage": {
             "@type": [
                 "WebPage"
             ],
-            "@id": "https://www.allrecipes.com/recipe/228875/maple-roasted-brussels-sprouts-with-bacon/",
+            "@id": "https://www.allrecipes.com/recipe/236516/sriracha-deviled-eggs/",
             "breadcrumb": {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
@@ -299,35 +239,28 @@
                         "@type": "ListItem",
                         "position": 1,
                         "item": {
-                            "@id": "https://www.allrecipes.com/recipes/1081/fruits-and-vegetables/vegetables/brussels-sprouts/",
-                            "name": "Brussels Sprouts"
+                            "@id": "https://www.allrecipes.com/recipes/110/appetizers-and-snacks/deviled-eggs/",
+                            "name": "Deviled Eggs"
                         }
                     },
                     {
                         "@type": "ListItem",
                         "position": 2,
                         "item": {
-                            "@id": "https://www.allrecipes.com/recipes/17813/fruits-and-vegetables/vegetables/brussels-sprouts/roasted/",
-                            "name": "Roasted"
+                            "@id": "https://www.allrecipes.com/recipes/17427/appetizers-and-snacks/deviled-eggs/spicy-deviled-eggs/",
+                            "name": "Spicy Deviled Egg Recipes"
                         }
                     },
                     {
                         "@type": "ListItem",
                         "position": 3,
                         "item": {
-                            "@id": "https://www.allrecipes.com/recipe/228875/maple-roasted-brussels-sprouts-with-bacon/",
-                            "name": "Maple Roasted Brussels Sprouts with Bacon"
+                            "@id": "https://www.allrecipes.com/recipe/236516/sriracha-deviled-eggs/",
+                            "name": "Sriracha Deviled Eggs"
                         }
                     }
                 ]
-            },
-            "reviewedBy": [
-                {
-                    "@type": "Person",
-                    "name": "Allrecipes Test Kitchen",
-                    "url": "https://www.allrecipes.com/allrecipes-test-kitchen-7553892"
-                }
-            ]
+            }
         }
     }
 ]
