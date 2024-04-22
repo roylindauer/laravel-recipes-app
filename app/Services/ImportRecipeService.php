@@ -24,6 +24,13 @@ class ImportRecipeService
         //
     }
 
+    /**
+     * @param Client $client
+     * @return void
+     * @throws GuzzleException
+     * @throws \Exception
+     *
+     */
     public function import(\GuzzleHttp\Client $client): void
     {
         try {
@@ -59,11 +66,18 @@ class ImportRecipeService
 
     }
 
+    /**
+     * @param $message
+     * @return string
+     */
     private function logMessage($message): string
     {
         return "[Recipe #" . $this->recipe->id . "] " . $message;
     }
 
+    /**
+     * @return ExtractInterface
+     */
     private function extractor(): ExtractInterface
     {
         try {
@@ -81,6 +95,11 @@ class ImportRecipeService
         }
     }
 
+    /**
+     * @param $data
+     * @return bool
+     * @throws GuzzleException
+     */
     private function updateRecipe($data): bool
     {
         $this->recipe->name = $data["name"];
@@ -93,15 +112,22 @@ class ImportRecipeService
             $this->recipe->tags = $data["keywords"];
         }
 
+        $this->recipe->featured_image = $this->processFeaturedImage($data);
+
+        $this->recipe->imported_at = now();
+        return $this->recipe->save();
+    }
+
+    private function processFeaturedImage($data): string|bool
+    {
         if (isset($data["featured_image"])) {
             $image_response = $this->client->get($data["featured_image"]);
             $image = $image_response->getBody()->getContents();
             $image_path = 'recipe_images/' . $this->recipe->id . '/featured.jpg';
             Storage::disk('local')->put($image_path, $image);
-            $this->recipe->featured_image = $image_path;
+            return $image_path;
         }
 
-        $this->recipe->imported_at = now();
-        return $this->recipe->save();
+        return false;
     }
 }
