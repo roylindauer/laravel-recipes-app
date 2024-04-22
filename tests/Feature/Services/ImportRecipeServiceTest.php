@@ -37,8 +37,8 @@ class ImportRecipeServiceTest extends TestCase
         $handlerStack = HandlerStack::create($mock);
         $client = new Client(['handler' => $handlerStack]);
 
-        $importRecipeService = new ImportRecipeService($client, $recipe);
-        $importRecipeService->import();
+        $importRecipeService = new ImportRecipeService($recipe->id);
+        $importRecipeService->import($client);
 
         $updated_recipe = Recipe::find($recipe->id);
         $this->assertEquals('Garlic-Braised Chicken', $updated_recipe->name);

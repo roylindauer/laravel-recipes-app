@@ -3,14 +3,14 @@
 namespace App\Jobs;
 
 use App\Services\ImportRecipeService;
+use GuzzleHttp\Client;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 
-class ProcessRecipeImport implements ShouldQueue, ShouldBeUnique
+class ProcessRecipeImport implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
@@ -29,6 +29,6 @@ class ProcessRecipeImport implements ShouldQueue, ShouldBeUnique
      */
     public function handle(): void
     {
-        $this->importRecipeService->import();
+        $this->importRecipeService->import(new Client());
     }
 }

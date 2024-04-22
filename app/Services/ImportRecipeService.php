@@ -8,31 +8,38 @@ use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Masterminds\HTML5;
+use QueryPath\DOMQuery;
 use QueryPath\QueryPath;
 
 class ImportRecipeService
 {
-    public \QueryPath\DOMQuery $qp;
+    public DOMQuery $qp;
+    public Recipe $recipe;
+    public Client $client;
 
     public function __construct(
-        public \GuzzleHttp\Client $client,
-        public Recipe $recipe,
+        public $recipe_id,
     )
     {
         //
     }
 
-    public function import(): void
+    public function import(\GuzzleHttp\Client $client): void
     {
-        Log::error('Processing recipe #' . $this->recipe->id . ' - ' . $this->recipe->import_url);
-
         try {
+            $this->recipe = Recipe::find($this->recipe_id);
+            Log::info($this->logMessage('Processing Recipe URL: ' . $this->recipe->import_url));
+
+            Log::info($this->logMessage('Fetching URL: ' . $this->recipe->import_url));
+            $this->client = $client;
             $response = $this->client->get($this->recipe->import_url);
             $html = $response->getBody()->getContents();
 
+            Log::info($this->logMessage('Parsing HTML'));
             $html5 = new HTML5();
             $this->qp = QueryPath::with($html5->loadHTML($html));
 
+            Log::info($this->logMessage('Extracting Recipe Data'));
             $recipe_data = [];
             $recipe_data["name"] = $this->qp->find('meta[@property="og:title"]')->attr('content');
             $recipe_data["description"] = $this->qp->find('meta[@property="og:description"]')->attr('content');
@@ -43,13 +50,18 @@ class ImportRecipeService
 
             $this->updateRecipe($recipe_data);
 
-            Log::error('Recipe #' . $this->recipe->id . " imported successfully");
+            Log::info($this->logMessage("Imported Successfully"));
         } catch (\Exception $e) {
-            Log::error('Error processing recipe #' . $this->recipe->id . ': ' . $e->getMessage());
+            Log::error($this->logMessage('Error Importing Recipe: ' . $e->getMessage()));
         } catch (GuzzleException $e) {
-            Log::error('Error processing recipe URL #' . $this->recipe->id . ': ' . $e->getMessage());
+            Log::error($this->logMessage('Error Processing Recipe URL: ' . $e->getMessage()));
         }
 
+    }
+
+    private function logMessage($message): string
+    {
+        return "[Recipe #" . $this->recipe->id . "] " . $message;
     }
 
     private function extractor(): ExtractInterface
@@ -57,12 +69,14 @@ class ImportRecipeService
         try {
 
             if (($markup = $this->qp->find('script[type="application/ld+json"]'))) {
+                Log::info($this->logMessage('Extracting Recipe Data From Schema'));
                 return new ExtractSchema($markup->text());
             }
 
+            Log::info($this->logMessage('Extracting Recipe Data From Markup'));
             return new ExtractMarkup($this->qp->html());
         } catch (\Exception $e) {
-            Log::error('Error extracting recipe data: ' . $e->getMessage());
+            Log::error($this->logMessage('Error Extracting Recipe Data: ' . $e->getMessage()));
             return new ExtractMarkup('');
         }
     }
@@ -89,14 +103,5 @@ class ImportRecipeService
 
         $this->recipe->imported_at = now();
         return $this->recipe->save();
-    }
-
-    /**
-     * Get the unique ID for the job.
-     */
-    public
-    function uniqueId(): string
-    {
-        return $this->recipe->id;
     }
 }

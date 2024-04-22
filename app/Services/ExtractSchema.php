@@ -22,10 +22,10 @@ class ExtractSchema implements ExtractInterface
         try {
             return json_decode($json, true, 512, JSON_THROW_ON_ERROR);
         } catch (\JsonException $e) {
-            Log::error('Error parsing JSON: ' . $e->getMessage());
+            Log::error('Error parsing JSON for Recipe: ' . $e->getMessage());
             return false;
         } catch (\Exception $e) {
-            Log::error('Error parsing JSON: ' . $e->getMessage());
+            Log::error('Error executing jsonDecode for Recipe: ' . $e->getMessage());
             return false;
         }
     }
