@@ -19,8 +19,8 @@ class ImportRecipeServiceTest extends TestCase
             'email' => 'recipeuser@example.org'
         ]))->create();
 
-        $importRecipeService = new ImportRecipeService();
-        $importRecipeService->import($recipe);
+        $importRecipeService = new ImportRecipeService($recipe);
+        $importRecipeService->import();
 
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
