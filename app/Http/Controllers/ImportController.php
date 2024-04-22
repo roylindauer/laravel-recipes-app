@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use App\Jobs\ProcessRecipeImport;
 use App\Models\Recipe;
 use App\Services\ImportRecipeService;
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use QueryPath\QueryPath;
 
 class ImportController extends Controller
 {
@@ -33,7 +33,7 @@ class ImportController extends Controller
             'active' => false,
         ]);
 
-        ProcessRecipeImport::dispatch(new ImportRecipeService($recipe));
+        ProcessRecipeImport::dispatch(new ImportRecipeService(new Client(), $recipe));
 
         return redirect()->route('recipes.index')->with('status', 'Recipe queued for import');
     }

@@ -5,17 +5,18 @@ namespace App\Services;
 use App\Models\Recipe;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Masterminds\HTML5;
 use QueryPath\QueryPath;
 
 class ImportRecipeService
 {
-    public \GuzzleHttp\Client $client;
     public \QueryPath\DOMQuery $qp;
 
     public function __construct(
-        public Recipe $recipe
+        public \GuzzleHttp\Client $client,
+        public Recipe $recipe,
     )
     {
         //
@@ -23,10 +24,9 @@ class ImportRecipeService
 
     public function import(): void
     {
-        logger('Processing recipe #' . $this->recipe->id . ' - ' . $this->recipe->import_url);
+        Log::error('Processing recipe #' . $this->recipe->id . ' - ' . $this->recipe->import_url);
 
         try {
-            $this->client = new Client();
             $response = $this->client->get($this->recipe->import_url);
             $html = $response->getBody()->getContents();
 
@@ -43,11 +43,11 @@ class ImportRecipeService
 
             $this->updateRecipe($recipe_data);
 
-            logger('Recipe #' . $this->recipe->id . " imported successfully");
+            Log::error('Recipe #' . $this->recipe->id . " imported successfully");
         } catch (\Exception $e) {
-            logger('Error processing recipe #' . $this->recipe->id . ': ' . $e->getMessage());
+            Log::error('Error processing recipe #' . $this->recipe->id . ': ' . $e->getMessage());
         } catch (GuzzleException $e) {
-            logger('Error processing recipe URL #' . $this->recipe->id . ': ' . $e->getMessage());
+            Log::error('Error processing recipe URL #' . $this->recipe->id . ': ' . $e->getMessage());
         }
 
     }
@@ -62,7 +62,7 @@ class ImportRecipeService
 
             return new ExtractMarkup($this->qp->html());
         } catch (\Exception $e) {
-            logger('Error extracting recipe data: ' . $e->getMessage());
+            Log::error('Error extracting recipe data: ' . $e->getMessage());
             return new ExtractMarkup('');
         }
     }

@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 
 class ExtractSchema implements ExtractInterface
@@ -21,10 +22,10 @@ class ExtractSchema implements ExtractInterface
         try {
             return json_decode($json, true, 512, JSON_THROW_ON_ERROR);
         } catch (\JsonException $e) {
-            logger('Error parsing JSON: ' . $e->getMessage());
+            Log::error('Error parsing JSON: ' . $e->getMessage());
             return false;
         } catch (\Exception $e) {
-            logger('Error parsing JSON: ' . $e->getMessage());
+            Log::error('Error parsing JSON: ' . $e->getMessage());
             return false;
         }
     }
